@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'ec9-rky'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_82464ae9a60f464d8af713b50dc511ba }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_276bc05e951445ae804bdf6b737f4cf8 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
